@@ -1,0 +1,58 @@
+WARNING:tensorflow:sample_weight modes were coerced from
+  ...
+    to  
+  ['...']
+WARNING:tensorflow:sample_weight modes were coerced from
+  ...
+    to  
+  ['...']
+Train for 52 steps, validate for 14 steps
+Epoch 1/20
+51/52 [============================>.] - ETA: 3:10 - loss: 0.3892 - accuracy: 0.9359
+Epoch 00001: loss improved from inf to 0.38328, saving model to ./run_training/checkpoints
+WARNING:tensorflow:From /Users/carbonc5/venv/tensor-venv/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1786: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+INFO:tensorflow:Assets written to: ./run_training/checkpoints/assets
+52/52 [==============================] - 10409s 200s/step - loss: 0.3833 - accuracy: 0.9362 - val_loss: 0.2428 - val_accuracy: 0.9541
+Epoch 2/20
+51/52 [============================>.] - ETA: 2:11 - loss: 0.2083 - accuracy: 0.9516
+Epoch 00002: loss improved from 0.38328 to 0.20677, saving model to ./run_training/checkpoints
+INFO:tensorflow:Assets written to: ./run_training/checkpoints/assets
+52/52 [==============================] - 7191s 138s/step - loss: 0.2068 - accuracy: 0.9516 - val_loss: 0.1582 - val_accuracy: 0.9535
+Epoch 3/20
+51/52 [============================>.] - ETA: 2:01 - loss: 0.0565 - accuracy: 0.9517
+Epoch 00003: loss improved from 0.20677 to 0.05652, saving model to ./run_training/checkpoints
+INFO:tensorflow:Assets written to: ./run_training/checkpoints/assets
+52/52 [==============================] - 6641s 128s/step - loss: 0.0565 - accuracy: 0.9517 - val_loss: 0.1426 - val_accuracy: 0.9544
+Epoch 4/20
+51/52 [============================>.] - ETA: 2:05 - loss: 0.0482 - accuracy: 0.9522
+Epoch 00004: loss improved from 0.05652 to 0.04827, saving model to ./run_training/checkpoints
+INFO:tensorflow:Assets written to: ./run_training/checkpoints/assets
+52/52 [==============================] - 6852s 132s/step - loss: 0.0483 - accuracy: 0.9521 - val_loss: 0.1763 - val_accuracy: 0.9532
+Epoch 5/20
+51/52 [============================>.] - ETA: 2:01 - loss: 0.0470 - accuracy: 0.9521
+Epoch 00005: loss improved from 0.04827 to 0.04699, saving model to ./run_training/checkpoints
+INFO:tensorflow:Assets written to: ./run_training/checkpoints/assets
+52/52 [==============================] - 6660s 128s/step - loss: 0.0470 - accuracy: 0.9521 - val_loss: 0.1613 - val_accuracy: 0.9527
+Epoch 6/20
+51/52 [============================>.] - ETA: 2:01 - loss: 0.0452 - accuracy: 0.9518
+Epoch 00006: loss improved from 0.04699 to 0.04521, saving model to ./run_training/checkpoints
+INFO:tensorflow:Assets written to: ./run_training/checkpoints/assets
+52/52 [==============================] - 6662s 128s/step - loss: 0.0452 - accuracy: 0.9518 - val_loss: 0.2051 - val_accuracy: 0.9537
+Epoch 7/20
+51/52 [============================>.] - ETA: 2:01 - loss: 0.0437 - accuracy: 0.9519
+Epoch 00007: loss improved from 0.04521 to 0.04366, saving model to ./run_training/checkpoints
+INFO:tensorflow:Assets written to: ./run_training/checkpoints/assets
+52/52 [==============================] - 6660s 128s/step - loss: 0.0437 - accuracy: 0.9519 - val_loss: 0.1852 - val_accuracy: 0.9561
+Epoch 8/20
+51/52 [============================>.] - ETA: 2:01 - loss: 0.0431 - accuracy: 0.9519
+Epoch 00008: loss improved from 0.04366 to 0.04307, saving model to ./run_training/checkpoints
+INFO:tensorflow:Assets written to: ./run_training/checkpoints/assets
+52/52 [==============================] - 6676s 128s/step - loss: 0.0431 - accuracy: 0.9519 - val_loss: 0.1785 - val_accuracy: 0.9542
+Epoch 9/20
+51/52 [============================>.] - ETA: 2:04 - loss: 0.0421 - accuracy: 0.9547
+Epoch 00009: loss improved from 0.04307 to 0.04215, saving model to ./run_training/checkpoints
+INFO:tensorflow:Assets written to: ./run_training/checkpoints/assets
+52/52 [==============================] - 6829s 131s/step - loss: 0.0422 - accuracy: 0.9554 - val_loss: 0.2002 - val_accuracy: 0.9473
+Epoch 00009: early stopping
