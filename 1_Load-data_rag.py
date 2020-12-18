@@ -75,7 +75,7 @@ def find_T_pheno(arg1):
 		inf_pheno = True
 		des_pheno = False
 		j=0
-		if np.median(arg1.Tcell) <= 1000: # for 25% use 1540.124, for 50% use 1600.1584
+		if np.median(arg1.Tcell) <= 1540.124: # for 25% use 1540.124, for 50% use 1600.1584
 			des_pheno=True
 		while arg1.Scaled_Pos[j]<0.25:
 			normed = (arg1.Tcell[j]-min(arg1.Tcell))/(max(arg1.Tcell)-min(arg1.Tcell))
@@ -91,9 +91,9 @@ def find_T_pheno(arg1):
 			return pheno_str[2]
 		if des_pheno == True and ex_pheno == True:
 			return pheno_str[0]
-		elif ex_pheno == True and core_median <= 4500:#6259.61875: # from median of inflamed core medians
+		elif ex_pheno == True and core_median <= 6259.61875:#6259.61875: # from median of inflamed core medians
 			return pheno_str[0];
-		elif inf_pheno == True or core_median > 4500:#6259.61875:
+		elif inf_pheno == True or core_median > 6259.61875:#6259.61875:
 			return pheno_str[1];
 		elif ex_pheno == False and inf_pheno == False:
 			return pheno_str[3];
